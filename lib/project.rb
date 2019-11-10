@@ -8,7 +8,7 @@ class Project
   
   def add_backer(backer)
     backer_obj = Backer.new(backer)
-    self.backer = backer_obj
+    self.backers = backer_obj
   end
 
 end 
