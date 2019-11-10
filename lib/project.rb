@@ -11,5 +11,9 @@ class Project
     # self.backers = backer_obj
     @backers.push(backer)
   end
+  
+  def backers=(backer)
+    @backers = backer
+  end
 
 end 
