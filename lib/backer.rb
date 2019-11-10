@@ -8,7 +8,7 @@ class Backer
   
   def back_project(project)
     proj_obj = Project.new(project)
-    proj_obj.backer = self 
+    @backed_projects.push(proj_obj)
   end 
 
 end 
